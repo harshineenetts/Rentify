@@ -1,0 +1,21 @@
+Initialize the Backend Project:
+
+shell-T code
+mkdir backend
+cd backend
+npm init -y
+npm install express mongoose bcryptjs jsonwebtoken cors dotenv
+
+Set Up the Project Structure:
+shell-T code:
+
+mkdir models routes middleware
+touch server.js .env
+
+Create Environment Variables:
+Add the following to your .env file:
+
+env code:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret

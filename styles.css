@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f06, #ff9e2c);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+nav {
+  background: linear-gradient(135deg, #333, #444);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  padding: 20px;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: #ccc;
+}
+
+form button {
+  background: linear-gradient(135deg, #ff9e2c, #f06);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background: linear-gradient(135deg, #f06, #ff9e2c);
+}
+
+.property {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.property h3 {
+  margin: 0 0 10px;
+}
